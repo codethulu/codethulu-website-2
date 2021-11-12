@@ -1,0 +1,24 @@
+.main-graphic{
+  height: auto;
+  width: 100%;
+
+}
+
+.main-graphic-title{
+    position:absolute;
+    font-family: alphaDeath;
+    font-size: 10vw;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.sub-graphic-title{
+    position:absolute;
+    font-family: gipsyDanger;
+    font-size: 2vw;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}

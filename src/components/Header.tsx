@@ -1,18 +1,3 @@
-// //Header.js
-// import React, { useEffect } from 'react';
-// import './Header.css';
-// const Header = () => {
-// 	return (
-// 		<div>
-// 			<div className='navbar' id='navbar'>
-// 				<p className='nav-title'>About</p>
-// 				<p className='nav-title'>Projects</p>
-// 			</div>
-// 		</div>
-// 	)
-// };
-// export default Header;
-
 import React from 'react'
 import './Header.css'
 class Header extends React.Component {
