@@ -1,3 +1,13 @@
+@font-face {
+    font-family: alphaDeath;
+    src: url(./fonts/AlphaDeathPersonalUseGrunge-LzAE.ttf);
+}
+@font-face {
+    font-family: gipsyDanger;
+    src: url(./fonts/GipsyDangerPersonalUse-8W8z.ttf);
+}
+
+
 .App {
   text-align: center;
 }
@@ -38,5 +48,38 @@
 }
 
 body {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(26, 26, 26);
+}
+.main-graphic-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.main-graphic{
+  height: auto;
+  width: 100%;
+
+}
+
+.main-graphic-title{
+    position:absolute;
+    font-family: alphaDeath;
+    font-size: 10vw;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sub-graphic-title{
+    position:absolute;
+    font-family: gipsyDanger;
+    font-size: 2vw;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
