@@ -6,9 +6,6 @@ import './IntroGraphic.css';
 import whiteGrunge from '../images/white-grunge-texture.png';
 import logo from '../images/logo-a.png';
 
-
-
-const pStyle = { color: 'white' };
 const IntroGraphic = () => (
 
 
