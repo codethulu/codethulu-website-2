@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.250284ea.chunk.css",
-    "main.js": "/static/js/main.75fe3ba5.chunk.js",
-    "main.js.map": "/static/js/main.75fe3ba5.chunk.js.map",
+    "main.css": "/static/css/main.c724b946.chunk.css",
+    "main.js": "/static/js/main.f2f0b513.chunk.js",
+    "main.js.map": "/static/js/main.f2f0b513.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a85b37d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.a85b37d5.js.map",
     "static/js/2.ded74cae.chunk.js": "/static/js/2.ded74cae.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3eaa2325.chunk.js": "/static/js/3.3eaa2325.chunk.js",
     "static/js/3.3eaa2325.chunk.js.map": "/static/js/3.3eaa2325.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.250284ea.chunk.css.map": "/static/css/main.250284ea.chunk.css.map",
+    "static/css/main.c724b946.chunk.css.map": "/static/css/main.c724b946.chunk.css.map",
     "static/js/2.ded74cae.chunk.js.LICENSE.txt": "/static/js/2.ded74cae.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/GipsyDangerPersonalUse-8W8z.c404521f.ttf",
     "static/media/logo-a.19bc1045.png": "/static/media/logo-a.19bc1045.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a85b37d5.js",
     "static/js/2.ded74cae.chunk.js",
-    "static/css/main.250284ea.chunk.css",
-    "static/js/main.75fe3ba5.chunk.js"
+    "static/css/main.c724b946.chunk.css",
+    "static/js/main.f2f0b513.chunk.js"
   ]
 }
