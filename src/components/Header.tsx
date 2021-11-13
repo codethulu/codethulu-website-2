@@ -27,12 +27,20 @@ class Header extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className={`navbar ${this.state.nav && 'sticky'}`}>
+
+				<div className={`navbar ${this.state.nav && 'nav-sticky'}`}>
+					<div className={`trim ${this.state.nav && 'trim-after'}`}></div>
 					<a href='../index.tsx' className={`nav-title hover-underline-animation ${!this.state.nav && 'hidden'}`}> HOME</a>
 					<p className='nav-title hover-underline-animation'>ABOUT</p>
 					<p className='nav-title hover-underline-animation'>PROJECTS</p>
 					<p className='nav-title hover-underline-animation'>CONTACT</p>
 				</div>
+
+				<div className={`trim ${!this.state.nav && 'hidden'}`}></div>
+				<div className={`navbar ${!this.state.nav && 'hidden'}`}>
+					<p className='nav-title hover-underline-animation invisible'>janky solution :p</p>
+				</div>
+
 			</div>
 		);
 	}

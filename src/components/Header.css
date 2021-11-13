@@ -8,6 +8,7 @@ a{
 .navbar{
     overflow: hidden;
     background: rgba(0, 0, 0, 0);
+    
     text-align: center;
     width: 100%;
     z-index: 2;
@@ -17,7 +18,7 @@ a{
 .nav-title{
     
     font-family: gipsyDanger;
-    font-size: 2vw;
+    font-size: 20pt;
     color: white;
     display: inline;
     width:20%;
@@ -31,10 +32,11 @@ a{
     transform: scale(1.05);
 }
 
-.sticky{
+.nav-sticky{
     position: fixed;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
   width: 100%;
   top:0;
 }
@@ -65,4 +67,26 @@ a{
 
   .hidden{
       display: none;
+  }
+
+  .invisible{
+    visibility: hidden;
+  }
+
+  .trim{
+    background-color: white;
+    width: 0%;
+    height: 1vw;
+    margin: 0 auto;
+    transition-duration: 0.5s;
+
+  }
+
+  .trim-after{
+    background-color: white;
+    width: 100%;
+  
+    height: 1vw;
+    margin: 0 auto;
+
   }

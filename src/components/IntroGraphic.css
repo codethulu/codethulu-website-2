@@ -22,3 +22,13 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.divider{
+  background-color: white;
+  width: 70%;
+
+  height: 1vw;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
