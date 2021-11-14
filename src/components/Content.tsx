@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import './Header.css';
 import About from './About';
+import Projects from './Projects';
 
 
 const pStyle = { color: 'white' };
@@ -10,6 +11,7 @@ class Content extends React.Component {
         return (
             <div>
                 <About />
+                <Projects />
 
             </div >
         )

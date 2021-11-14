@@ -19,8 +19,8 @@ a{
     width:20%;
     transition-duration: 0.5s;
     margin:10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 .nav-option{
   display: inline;
@@ -32,7 +32,6 @@ a{
   cursor: pointer;
     background-color: rgba(122, 122, 122, 0.233);
     transform: scale(1.05);
-    border-radius: 10px;
 }
 
 .nav-sticky{

@@ -12,7 +12,6 @@ const IntroGraphic = () => (
     <div>
         <ParallaxBanner
             layers={[
-
                 {
                     expanded: false,
                     image: whiteGrunge,
@@ -22,12 +21,18 @@ const IntroGraphic = () => (
                     expanded: false,
                     image: logo,
                     amount: 0.4,
+
+
                 },
 
+
+
             ]}
-            style={{
-                height: "50em",
-            }}
+            style={
+                {
+                    height: "50em",
+                }
+            }
         >
 
             <h1 className='main-graphic-title'>CODETHULU</h1>
