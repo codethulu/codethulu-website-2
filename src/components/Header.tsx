@@ -1,5 +1,15 @@
 import React from 'react'
 import './Header.css'
+
+import {
+	Link,
+	Element,
+	Events,
+	animateScroll,
+	scrollSpy,
+	scroller
+} from "react-scroll";
+
 class Header extends React.Component {
 	listener = null;
 	state = {
@@ -31,9 +41,17 @@ class Header extends React.Component {
 				<div className={`navbar ${this.state.nav && 'nav-sticky'}`}>
 					<div className={`trim ${this.state.nav && 'trim-after'}`}></div>
 					<a href='../index.tsx' className={`nav-title hover-underline-animation ${!this.state.nav && 'hidden'}`}> HOME</a>
-					<p className='nav-title hover-underline-animation'>ABOUT</p>
-					<p className='nav-title hover-underline-animation'>PROJECTS</p>
-					<p className='nav-title hover-underline-animation'>CONTACT</p>
+					<Link activeClass="active" to="about" spy={true} smooth={true} offset={-50} duration={750} >
+						<a className='nav-title hover-underline-animation'>ABOUT</a>
+					</Link>
+
+
+					<a className='nav-title hover-underline-animation'>PROJECTS</a>
+
+					<a className='nav-title hover-underline-animation'>CONTACT</a>
+
+
+
 				</div>
 
 				<div className={`trim ${!this.state.nav && 'hidden'}`}></div>

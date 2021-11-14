@@ -29,6 +29,7 @@
     text-align: center;
     padding: 10px;
     vertical-align: top;
+    padding-top: 40px;
 }
 .red-bg{
     background-color: red;
@@ -37,6 +38,7 @@
     font-family: alphaDeath;
     font-size: 40pt;
     color: white;
+    text-align: center;
 }
 
 .about-text{

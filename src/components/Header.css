@@ -12,18 +12,22 @@ a{
 }
 
 .nav-title{
-    
+  cursor: pointer;
     font-family: universalKnowledge;
     font-size: 20pt;
     color: white;
-    display: inline;
     width:20%;
     transition-duration: 0.5s;
     margin:10px;
 }
+.nav-option{
+  display: inline;
+  cursor: pointer;
+}
 
 
 .nav-title:hover{
+  cursor: pointer;
     background-color: rgba(122, 122, 122, 0.233);
     transform: scale(1.05);
 }

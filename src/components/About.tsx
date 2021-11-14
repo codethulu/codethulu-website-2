@@ -7,10 +7,22 @@ import whiteGrunge from '../images/small-white-grunge.png';
 import smallSplatter from '../images/small-white-splatter.png';
 import face from '../images/face.png';
 
+import {
+    Link,
+    Element,
+    Events,
+    animateScroll,
+    scrollSpy,
+    scroller
+} from "react-scroll";
+
 class About extends React.Component {
     render() {
         return (
-            <div className='about-container '>
+
+
+            <div className='about-container'>
+                <Element name="about" className="element"></Element>
                 <div className='bio'>
                     <h1 className='about-title'>ABOUT</h1>
                     <p className='about-text'>MY NAME IS BRENDAN AND I AM A SOFTWARE ENGINEER AND GRAPHIC DESIGNER WHO LOOKS TO GET INVOLVED IN PROJECTS THAT ALLOW ME TO APPLY MY PROGRAMMING SKILLS AND CREATIVITY. I ENJOY DESIGNING WEBSITES AND MAKING GAMES IN MY SPARE TIME.</p>
@@ -37,7 +49,7 @@ class About extends React.Component {
                         <img className='fill' src={smallSplatter} />
                     </Parallax>
 
-                    <Parallax y={[-210, -170]}>
+                    <Parallax y={[-220, -170]}>
                         <img className='fill' src={face} />
                     </Parallax>
 
@@ -55,6 +67,8 @@ class About extends React.Component {
                                             <div className="ch-info-front img-java"></div>
                                             <div className="ch-info-back">
                                                 <h3>JAVA</h3>
+                                                <p>Java is a widely used cross platforming programming language.</p>
+                                                <p>With java, i have been able to explore and develop in a wide range of fields, from backend web development and databases to desktop software and pathfinding algorithms.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -66,7 +80,7 @@ class About extends React.Component {
                                             <div className="ch-info-back">
                                                 <h3>PYTHON</h3>
                                                 <p>Python is a language with hundreds of useful libraries, and is perfect for lightweight projets or components.</p>
-                                                <p>Learning python allowed me to confidently attempt more complex projects, as well as </p>
+                                                <p>Learning python allowed me to confidently attempt more complex projects.</p>
                                             </div>
                                         </div>
                                     </div>
