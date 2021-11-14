@@ -7,20 +7,21 @@
 .main-graphic-title{
     position:absolute;
     font-family: alphaDeath;
-    font-size: 10vw;
-    top: 75%;
+    font-size: min(120pt,20vw);
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    top:70%;
 }
 .sub-graphic-title{
     position:absolute;
-    font-family: gipsyDanger;
-    font-size: 2vw;
-    top: 95%;
+    font-family: universalKnowledge;
+    font-size: max(14pt,2vw);
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    top:70%;
+    text-align: center;
 }
 
 .divider{

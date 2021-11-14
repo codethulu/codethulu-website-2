@@ -7,6 +7,11 @@
     src: url(./fonts/GipsyDangerPersonalUse-8W8z.ttf);
 }
 
+@font-face {
+  font-family: universalKnowledge;
+  src: url(./fonts/Universal\ Knowledge.ttf);
+}
+
 
 .App {
   text-align: center;
