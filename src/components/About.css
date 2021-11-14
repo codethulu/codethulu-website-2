@@ -30,6 +30,8 @@
     padding: 10px;
     vertical-align: top;
     padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(48, 48, 48);
 }
 .red-bg{
     background-color: red;
