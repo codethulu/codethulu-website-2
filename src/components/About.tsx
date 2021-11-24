@@ -3,7 +3,7 @@ import './About.css'
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
 
-import whiteGrunge from '../images/small-white-grunge.png';
+import whiteGrunge from '../images/small-white-grunge-b.png';
 import smallSplatter from '../images/small-white-splatter.png';
 import face from '../images/face.png';
 
@@ -23,12 +23,19 @@ class About extends React.Component {
 
             <div className='about-container'>
                 <Element name="about" className="element"></Element>
-                <div className='bio'>
-                    <h1 className='about-title'>ABOUT</h1>
-                    <p className='about-text'>MY NAME IS BRENDAN AND I AM A SOFTWARE ENGINEER AND GRAPHIC DESIGNER WHO LOOKS TO GET INVOLVED IN PROJECTS THAT ALLOW ME TO APPLY MY PROGRAMMING SKILLS AND CREATIVITY. I ENJOY DESIGNING WEBSITES AND MAKING GAMES IN MY SPARE TIME.</p>
-                    <p className='about-text'>CURRENTLY I AM STUDYING COMPUTER SCIENCE AT THE UNIVERSITY OF WARWICK, AS WELL AS UNDERTAKING PERSONAL PROJECTS THAT UTILISE NEW TECHNOLOGIES AND EXPAND MY SKILLSET. </p>
 
-                    <p className='about-text'>I ALSO ENJOY PAINTING, COLLECTING RECORDS AND MAKING RAMEN.</p>
+                <div className='bio'>
+                    <Parallax x={[-5, 5]}>
+                        <div className='white-stroke'>
+                            <h1 className='about-title font-black'>ABOUT</h1>
+
+                        </div>
+                    </Parallax>
+
+                    <p>HELLO, MY NAME IS BRENDAN AND I AM A SOFTWARE ENGINEER AND GRAPHIC DESIGNER. I LOVE TO GET INVOLVED IN PROJECTS THAT ALLOW ME TO APPLY MY PROGRAMMING SKILLS AND CREATIVITY, IN PARTICULAR I ENJOY WEB DEVELOPMENT AND MAKING GAMES.</p>
+                    <p>CURRENTLY I AM STUDYING COMPUTER SCIENCE AT THE UNIVERSITY OF WARWICK, AS WELL AS UNDERTAKING PERSONAL PROJECTS THAT UTILISE NEW TECHNOLOGIES AND EXPAND MY SKILLSET. </p>
+
+                    <p>I ALSO ENJOY PAINTING, COLLECTING RECORDS AND MAKING RAMEN.</p>
                     {/* <p className='about-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis metus quis sem facilisis aliquam. Pellentesque nec tellus quam. Proin tempor diam ac fermentum vestibulum. Proin vitae molestie ipsum. Integer bibendum, sapien quis lobortis mattis, quam orci accumsan est, non tincidunt tortor purus sit amet dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin ac leo a velit cursus cursus et id nisl. Quisque quis dui eu erat sollicitudin placerat ut eget nisi. Sed tincidunt convallis gravida.
 
                         In hac habitasse platea dictumst. Sed fringilla fermentum urna, quis laoreet tortor euismod et. Donec faucibus viverra metus, quis tincidunt tellus sagittis elementum. Nulla facilisi. Fusce lobortis nulla eget metus commodo hendrerit. Maecenas malesuada vitae mauris maximus elementum. Donec non orci eu ligula ultrices convallis at bibendum metus. Integer fringilla, nulla vitae laoreet condimentum, eros libero imperdiet elit, ac eleifend turpis mauris vel nisi. Nam in elementum sapien. Proin consequat risus justo, at volutpat dolor vulputate a. Etiam posuere porttitor risus vitae porttitor. Pellentesque feugiat ut elit eget eleifend. Duis in rhoncus ipsum. Maecenas pellentesque lorem eget lectus mollis commodo. Vestibulum vel dolor ac lorem convallis facilisis. Curabitur rutrum sit amet ipsum nec porttitor.
@@ -38,6 +45,7 @@ class About extends React.Component {
 
                     </p> */}
                 </div>
+
                 <div className='photo'>
 
 
@@ -54,9 +62,14 @@ class About extends React.Component {
                     </Parallax>
 
                 </div>
+
                 <div className='bg-white-grunge'>
                     <div className='skills'>
-                        <h1 className='about-title'>SKILLS</h1>
+                        <div className='white-stroke'>
+                            <h1 className='about-title font-black'>SKILLS</h1>
+
+                        </div>
+
 
                         <section className="main">
 
@@ -168,6 +181,8 @@ class About extends React.Component {
 
                     </div>
                 </div>
+
+
             </div >
         );
     }

@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import './Header.css';
 import About from './About';
-import Projects from './Projects';
+import ProjectShowcase from './ProjectShowcase';
 
 
 const pStyle = { color: 'white' };
@@ -11,7 +11,7 @@ class Content extends React.Component {
         return (
             <div>
                 <About />
-                <Projects />
+                <ProjectShowcase />
 
             </div >
         )

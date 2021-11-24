@@ -1,0 +1,39 @@
+.projects-container{
+    background-color: black;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.projects-title{
+    font-family: alphaDeath;
+    font-size: 40pt;
+    color: white;
+
+    
+}
+
+.projects-text{
+    font-family: universalKnowledge;
+    font-size: 20pt;
+    color: rgb(197, 197, 197);
+    font-style: italic;
+    
+
+}
+
+.grey-stroke{
+
+    
+    height: 200px;
+    margin: auto;
+
+    background-image: url(../images/grey-stroke.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center ;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

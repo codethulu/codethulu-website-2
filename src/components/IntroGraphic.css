@@ -1,35 +1,93 @@
 .main-graphic{
-  height: auto;
+  padding-top: 50px;
+  height: 400px;
   width: 100%;
+}
 
+@media (min-width: 1000px) { 
+  .main-graphic{
+    height: 600px;
+
+  }
+}
+@media (min-width: 1250px) { 
+  .main-graphic{
+    height: 750px;
+
+  }
+}
+@media (min-width: 1500px) { 
+  .main-graphic{
+    height: 1000px;
+
+  }
 }
 
 .main-graphic-title{
     position:absolute;
     font-family: alphaDeath;
-    font-size: min(120pt,20vw);
+    font-size: 48pt;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     top:70%;
 }
+@media (min-width: 700px) {
+  .main-graphic-title{
+    font-size: 64pt;
+  }
+ }
+@media (min-width: 1000px) {
+  .main-graphic-title{
+    font-size: 100pt;
+  }
+ }
+@media (min-width: 1500px) {
+  .main-graphic-title{
+    font-size: 120pt;
+  }
+ }
+
 .sub-graphic-title{
     position:absolute;
     font-family: universalKnowledge;
-    font-size: max(14pt,2vw);
+    font-size: 10pt;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    top:70%;
+    top:90%;
     text-align: center;
 }
+@media (min-width: 700px) {
+  .sub-graphic-title{
+    font-size: 12pt;
+    top:93%;
+  }
+ }
+@media (min-width: 1000px) {
+  .sub-graphic-title{
+    font-size: 15pt;
+    top:93%;
+  }
+ }
+@media (min-width: 1200px) {
+  .sub-graphic-title{
+    font-size: 20pt;
+    top:90%;
+  }
+ }
+@media (min-width: 1500px) {
+  .sub-graphic-title{
+    font-size: 22pt;
+    top:88%;
+  }
+ }
 
 .divider{
   background-color: white;
-  width: 70%;
+  width: 90%;
 
-  height: 1vw;
+  height: 5px;
   margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
 }

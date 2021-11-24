@@ -2,9 +2,20 @@
 
     justify-content: center;
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 100px;
 
+}
+@media (min-width: 1000px) { 
+  .about-container{
+    margin-top: 200px;
+
+  }
+}
+@media (min-width: 1200px) { 
+  .about-container{
+    margin-top: 300px;
+
+  }
 }
 
 .bg-white-grunge { 
@@ -13,17 +24,66 @@
     background-size: cover;
 }
 
-.photo{
-    display: inline-block;
 
-    width:400px;
+.photo{
+	padding-top: 50px;
+    display: inline-block;
+    width:200px;
     height: 100px;
     margin: auto;
+}
+@media (min-width: 600px) { 
+  .photo{
+    width:250px;
+  }
+}
+@media (min-width: 1000px) { 
+  .photo{
+    width:300px;
+  }
+}
+@media (min-width: 1200px) { 
+  .photo{
+	  padding-top: 20px;
+    width:400px;
+  }
+}
+.black-stroke{
+
+    
+    height: 200px;
+    margin: auto;
+
+    background-image: url(../images/black-stroke.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center ;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.white-stroke{
+
+    
+    height: 120px;
+    margin: auto;
+
+    background-image: url(../images/white-stroke.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center ;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .bio{
     display: inline-block;
-    width: 60%;
+    width: 90%;
     height: auto;
     margin: auto;
     text-align: center;
@@ -32,6 +92,24 @@
     padding-top: 20px;
     padding-bottom: 40px;
     background-color: rgb(48, 48, 48);
+	font-family: universalKnowledge;
+    font-size: 10pt;
+    color: rgb(197, 197, 197);
+    font-style: italic;
+
+}
+@media (min-width: 768px) { 
+    .bio{
+		width: 60%;
+		font-size: 15pt;
+	}
+
+}
+@media (min-width: 1200px) { 
+    .bio{
+		width: 60%;
+		font-size: 18pt;
+	}
 
 }
 .red-bg{
@@ -42,7 +120,10 @@
     font-size: 40pt;
     color: white;
     text-align: center;
+	
 }
+
+
 
 .about-text{
     font-family: universalKnowledge;
@@ -50,6 +131,10 @@
     color: rgb(197, 197, 197);
     font-style: italic;
 
+}
+
+.font-black{
+	color: black;
 }
 
 .fill{
@@ -64,6 +149,9 @@
     padding-top: 20px;
     padding-bottom: 50px;
     background-color: rgb(17, 17, 17);
+	background-image: url(../images/paint-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 
 }
 

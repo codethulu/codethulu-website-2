@@ -56,6 +56,22 @@ body {
   background-color: rgb(26, 26, 26);
 }
 
+.grey-stroke{
+
+    
+  height: 200px;
+  margin: auto;
+
+  background-image: url(./images/grey-stroke.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center ;
+
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
 
 
 .center {

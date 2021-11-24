@@ -9,7 +9,7 @@ import logo from '../images/logo-a.png';
 
 const IntroGraphic = () => (
 
-    <div>
+    <div className='main-graphic'>
         <ParallaxBanner
             layers={[
                 {
@@ -30,7 +30,7 @@ const IntroGraphic = () => (
             ]}
             style={
                 {
-                    height: "50em",
+                    height: "100%",
                 }
             }
         >
