@@ -21,11 +21,7 @@ const IntroGraphic = () => (
                     expanded: false,
                     image: logo,
                     amount: 0.4,
-
-
                 },
-
-
 
             ]}
             style={

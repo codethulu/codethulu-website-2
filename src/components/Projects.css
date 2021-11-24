@@ -1,7 +1,8 @@
 .projects-container{
+    margin-top: 150px;
     background-color: black;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .projects-title{
@@ -35,5 +36,6 @@
     display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
 }
