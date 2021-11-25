@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { ParallaxBanner } from 'react-scroll-parallax';
 import './IntroGraphic.css';
 
-import whiteGrunge from '../images/white-grunge-texture.png';
+import whiteGrunge from '../images/white-grunge-texture.jpg';
 
 import logo from '../images/logo-a.png';
 
