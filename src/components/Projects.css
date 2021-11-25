@@ -97,14 +97,14 @@
 }
 
 .title-1{
-    background-image: url(../images/project-showcase-title-1.png);
+    background-image: url(../images/project-showcase-title-1.jpg);
 
 }
 .title-2{
-    background-image: url(../images/project-showcase-title-2.png);
+    background-image: url(../images/project-showcase-title-2.jpg);
 }
 .title-3{
-    background-image: url(../images/project-showcase-title-3.png);
+    background-image: url(../images/project-showcase-title-3.jpg);
 }
 
 @media (min-width: 1200px) { 
