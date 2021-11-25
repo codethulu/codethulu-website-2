@@ -124,12 +124,7 @@
 
 }
 
-@media (min-width: 1000px) { 
-    .photo-container{
-		padding: 20px;
-	}
 
-}
 
 .display-photo{
 	vertical-align: baseline;
@@ -215,14 +210,7 @@ p{
 	}
 
 }
-.highlight{
-	color: white;
-	text-shadow: 0 0 10px #fff;
-	transition-duration: 1s;
-}
-.highlight:hover{
-	text-shadow: 0 0 20px #fff
-}
+
 .red-bg{
     background-color: red;
 }

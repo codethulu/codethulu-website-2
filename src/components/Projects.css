@@ -39,3 +39,94 @@
   text-align: center;
 
 }
+
+.project-showcase{
+    width: 90%;
+    height: auto;
+    margin: auto;
+
+}
+
+
+
+.project-showcase-image{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.3);
+    vertical-align: bottom;
+}
+
+.project-showcase-description{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    background-color: rgb(24,24,24);
+    vertical-align: bottom;
+}
+
+.project-showcase-description p{
+    margin: 20px;
+    font-size: 8pt;
+}
+
+
+.video-chamber{
+    background-image: url(../videos/thechamber.gif);
+}
+
+.video-syte{
+    background-image: url(../videos/syte.gif);
+}
+
+.video-scratchclone{
+    background-image: url(../images/scratch-clone.png);
+}
+
+.showcase-title{
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-1{
+    background-image: url(../images/project-showcase-title-1.png);
+
+}
+.title-2{
+    background-image: url(../images/project-showcase-title-2.png);
+}
+.title-3{
+    background-image: url(../images/project-showcase-title-3.png);
+}
+
+@media (min-width: 1200px) { 
+    .project-showcase-image{
+        height: 800px;
+    }
+
+    .project-showcase-description{
+		 height: 800px;
+	}
+    .showcase-title{
+        height: 300px;
+    }
+
+    .project-showcase-description p{
+
+    font-size: 14pt;
+}
+}
+@media (min-width: 1500px) { 
+.project-showcase-description p{
+
+    font-size: 16pt;
+}
+}
