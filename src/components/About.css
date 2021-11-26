@@ -326,7 +326,11 @@ p{
 	-o-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+
+
+
 }
+
 .ch-info > div {
 	display: block;
 	position: absolute;
@@ -347,7 +351,7 @@ p{
 }
 
 .ch-info .ch-info-front {
-	box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.3);
 }
 
 .ch-info .ch-info-back {
@@ -361,34 +365,34 @@ p{
 }
 
 .img-haskell { 
-	background-image: url(../images/lang-haskell.png);
+	background-image: url(../images/lang-haskell.jpg);
 }
 
 .img-htmlcss { 
-	background-image: url(../images/lang-htmlcss.png);
+	background-image: url(../images/lang-htmlcss.jpg);
 }
 
 .img-java { 
-	background-image: url(../images/lang-java.png);
+	background-image: url(../images/lang-java.jpg);
 }
 
 .img-swift { 
-	background-image: url(../images/lang-swift.png);
+	background-image: url(../images/lang-swift.jpg);
 }
 
 .img-python { 
-	background-image: url(../images/lang-python.png);
+	background-image: url(../images/lang-python.jpg);
 }
 .img-typescript { 
-	background-image: url(../images/lang-typescript.png);
+	background-image: url(../images/lang-typescript.jpg);
 }
 
 .img-c { 
-	background-image: url(../images/lang-c.png);
+	background-image: url(../images/lang-c.jpg);
 }
 
 .img-ps { 
-	background-image: url(../images/lang-ps.png);
+	background-image: url(../images/lang-ps.jpg);
 }
 
 .ch-info h3 {
