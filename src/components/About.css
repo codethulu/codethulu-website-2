@@ -112,7 +112,6 @@
 }
 
 .photo-container{
-	vertical-align: baseline;
     display: block;
     width: 100%;
     height: auto;
@@ -218,6 +217,8 @@ p{
 }
 .grey-bg{
 	background-color: rgb(48, 48, 48);
+	box-shadow: 0px 0px 50px black;
+	
 }
 .about-title{
     font-family: alphaDeath;
@@ -257,6 +258,7 @@ p{
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
+	box-shadow: 0px 0px 100px black;
 
 }
 .skill-info{

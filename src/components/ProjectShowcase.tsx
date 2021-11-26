@@ -22,8 +22,10 @@ class ProjectShowcase extends React.Component {
             <div className='projects-container'>
                 <Element name="projects" className="element"></Element>
                 <h1 className='projects-title'>PROJECT SHOWCASE</h1>
+                <p>Here are some of my favourite projects I have worked on. To view all of my projects, please check out my project page [coming soon...]</p>
                 <div className={(window.innerWidth < 1000) ? 'display-none' : 'display-visible'}>
                     <div className='project-showcase'>
+
                         <div className='project-showcase-image video-chamber'>
                             <p>‎</p>
                         </div>
