@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+.projects-container p {
+    margin: 10px;
+}
+
 .projects-title{
     font-family: alphaDeath;
     font-size: 40pt;
@@ -59,12 +63,14 @@
 .project-showcase-description p{
     margin: 5px;
     font-size: 8pt;
+    letter-spacing: 1px;
 }
 
 @media (min-width: 370px) { 
     .project-showcase-description p{
 
     font-size: 8pt;
+    letter-spacing: 2px;
 }
 }
 
