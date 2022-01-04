@@ -107,7 +107,7 @@ const projectsList = [
     {
         name: "Ursina Elements",
         titleCard: false,
-        description: "In this project I was tasked to write the SQl queries required for a music production company to book acts for an upcoming festival. This involved designing a system and displaying the appropriate data required to schedule, remove and get information about gigs.",
+        description: "A simple minecraft clone written in python. The player may move, place and destroy blocks, and combine items in their inventory (inspired by the main mechanic in little alchemy) to unlock new building materials. ",
         tags: ["python"],
         image: "ursina-elements",
         showcase: false,
