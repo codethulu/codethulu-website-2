@@ -5,6 +5,10 @@
   "homepage": "https://codethulu.dev",
   "dependencies": {
     "-": "^0.0.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/lab": "^5.0.0-alpha.63",
+    "@mui/material": "^5.2.7",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -12,9 +16,11 @@
     "@types/node": "^12.20.37",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "animate.css": "^4.1.1",
     "react": "^17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-scroll": "^1.8.4",
     "react-scroll-into-view": "^1.10.1",
     "react-scroll-parallax": "^2.4.0",
@@ -49,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-animate-on-scroll": "^2.1.5",
     "@types/react-router-dom": "^5.3.2",
     "@types/react-scroll": "^1.8.3",
     "gh-pages": "^3.2.3"

@@ -1,8 +1,9 @@
 .footer{
+    font-family: roboto-medium;
     width: 100%;
     margin: auto;
     margin-top: 50px;
-
+    color: white;
     background-color: rgb(0, 0, 0);
     /* background-image: linear-gradient(rgb(46, 46, 46), rgb(0, 0, 0)); */
 	background-size: cover;

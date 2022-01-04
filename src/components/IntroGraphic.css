@@ -1,93 +1,65 @@
 .main-graphic{
   padding-top: 50px;
-  height: 400px;
+  height: 100vh;
   width: 100%;
+  text-align: center;
 }
 
-@media (min-width: 1000px) { 
-  .main-graphic{
-    height: 600px;
-
-  }
-}
-@media (min-width: 1250px) { 
-  .main-graphic{
-    height: 750px;
-
-  }
-}
-@media (min-width: 1500px) { 
-  .main-graphic{
-    height: 1000px;
-
-  }
+.graphic-title-box{
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    text-align: center;
 }
 
 .main-graphic-title{
-    position:absolute;
-    font-family: alphaDeath;
-    font-size: 48pt;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display:inline-block;
+    font-family: universalKnowledge;
+    font-size: 10vh;
+    margin: auto;
     color: white;
-    text-shadow: 0 0 20px rgb(26, 26, 26);
-    top:70%;
 }
-@media (min-width: 700px) {
+@media (min-width: 568px) { 
   .main-graphic-title{
-    font-size: 64pt;
+    font-size: 20vh;
   }
- }
-@media (min-width: 1000px) {
-  .main-graphic-title{
-    font-size: 100pt;
-  }
- }
-@media (min-width: 1500px) {
-  .main-graphic-title{
-    font-size: 120pt;
-  }
- }
+}
 
 .sub-graphic-title{
-    position:absolute;
-    font-family: universalKnowledge;
-    font-size: 10pt;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display:inline-block;
+    margin: auto;
+    font-family: roboto-medium;
+    font-size: 2.5vh;
     color: white;
-    top:90%;
     text-align: center;
-    text-shadow: 0 0 10px rgb(82, 82, 82);
 }
-@media (min-width: 700px) {
-  .sub-graphic-title{
-    font-size: 12pt;
-    top:93%;
-  }
- }
-@media (min-width: 1000px) {
-  .sub-graphic-title{
-    font-size: 15pt;
-    top:93%;
-  }
- }
-@media (min-width: 1200px) {
-  .sub-graphic-title{
-    font-size: 20pt;
-    top:90%;
-  }
- }
-@media (min-width: 1500px) {
-  .sub-graphic-title{
-    font-size: 22pt;
-    top:88%;
-  }
- }
+
+.down-button{
+  position: absolute;
+  display: block;
+  margin: auto;
+  left: 50%;
+  top: 85%;
+  width: 6vh;
+  height: 6vh;
+  background-image: url('../images/down-nav-button.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 0.5s;
+  transform: translate(-50%, -50%);
+  opacity: 70%;
+}
+
+.down-button:hover{
+  cursor: pointer;
+  opacity: 100%;
+}
 
 .divider{
   background-color: white;
-  width: 90%;
+  width: 100%;
 
   height: 5px;
   margin: 0 auto;
