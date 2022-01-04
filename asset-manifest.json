@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab6fd37e.chunk.css",
-    "main.js": "/static/js/main.82623bd8.chunk.js",
-    "main.js.map": "/static/js/main.82623bd8.chunk.js.map",
+    "main.css": "/static/css/main.97b329f9.chunk.css",
+    "main.js": "/static/js/main.229f6d44.chunk.js",
+    "main.js.map": "/static/js/main.229f6d44.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.466b0238.js",
     "runtime-main.js.map": "/static/js/runtime-main.466b0238.js.map",
     "static/css/2.4f6c2452.chunk.css": "/static/css/2.4f6c2452.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.5c466e5b.chunk.js.map": "/static/js/3.5c466e5b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4f6c2452.chunk.css.map": "/static/css/2.4f6c2452.chunk.css.map",
-    "static/css/main.ab6fd37e.chunk.css.map": "/static/css/main.ab6fd37e.chunk.css.map",
+    "static/css/main.97b329f9.chunk.css.map": "/static/css/main.97b329f9.chunk.css.map",
     "static/js/2.456aa452.chunk.js.LICENSE.txt": "/static/js/2.456aa452.chunk.js.LICENSE.txt",
     "static/media/ProjectCard.css": "/static/media/warwick-labour-website.a0904488.jpg",
     "static/media/App.css": "/static/media/Universal Knowledge.c409d12e.ttf",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.466b0238.js",
     "static/css/2.4f6c2452.chunk.css",
     "static/js/2.456aa452.chunk.js",
-    "static/css/main.ab6fd37e.chunk.css",
-    "static/js/main.82623bd8.chunk.js"
+    "static/css/main.97b329f9.chunk.css",
+    "static/js/main.229f6d44.chunk.js"
   ]
 }
