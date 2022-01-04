@@ -1,12 +1,16 @@
 .project-card{
     display: inline-block;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(24, 24, 24);
     border-radius: 40px;
     height: auto;
     width: 100%;
     padding: 10px;
     vertical-align: top;
     transition: all 0.5s ease;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -70,7 +74,7 @@
     background-color: rgb(87, 87, 87);
     width: 100%;
     height: 200px;
-
+    border-radius: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
