@@ -6,7 +6,7 @@ const projectsList = [
         description: "The Chamber is a procedurally generated dungeon crawler with pathfinding enemies, over 1000 hand drawn sprites and over 100 unique items. Each level of the infinitly sprawling dungeon has a procedurally generated floor plan: each with its own random layout, connections, and aesthetic. Enemies, friendly NPCs, and chests full of useful loot can randomly spawn. Beating enemies and exploring the dungeon help level the player up, which allows them to increase their stats using the skill tree. These stat increasements can aid the player in beating the boss that resides at the end of each floor.",
         tags: ["python"],
         image: "chamber",
-        showcase: false,
+        showcase: true,
     },
     {
         name: "Robot Maze",

@@ -16,14 +16,17 @@ function projectCard(props: { name: string; titleCard: boolean; description: str
           <h1> {props.name} </h1>;
         } */}
 
-      {props.titleCard ? (<div className={'title title-' + props.image}></div>) : (<h1> {props.name} </h1>)}
+      {/* {props.titleCard ? (<div className={'title title-' + props.image}></div>) : (<h1> {props.name} </h1>)} */}
 
 
 
 
 
       <div className={'image image-' + props.image}></div>
+      {props.titleCard ? (<div className={'title title-' + props.image}></div>) : (<h1> {props.name} </h1>)}
+      {/* {props.showcase ? (<p> {props.description}</p>) : (<p> Read More</p>)} */}
       <p> {props.description}</p>
+      {/* <p>...</p> */}
 
       {props.tags.map((e) => {
         let tagStyle = 'tag'
