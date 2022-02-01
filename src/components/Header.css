@@ -106,3 +106,11 @@
     margin: 0 auto;
 
   }
+
+.warning{
+  width: 100%;
+  background-color: rgb(230, 81, 13);
+  height: 2vh;
+  color: white;
+  font-style: roboto-medium;
+}

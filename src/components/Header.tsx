@@ -29,6 +29,9 @@ class Header extends React.Component {
 					<Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={750} >
 						<a className='nav-title hover-underline-animation'>CONTACT</a>
 					</Link>
+					<div className='warning'>
+						<p>Hi! If you are looking for the new website, I have moved to <a href='https://codethulu.dev'>codethulu.dev</a></p>
+					</div>
 
 				</div>
 

@@ -2,7 +2,7 @@
   "name": "codethulu-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://codethulu.dev",
+  "homepage": "https://codethulu.github.io/codethulu-website-2/",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.7.1",
